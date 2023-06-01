@@ -1,0 +1,23 @@
+{
+  "name": "see-you",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.62.1",
+    "vitepress": "^1.0.0-beta.1"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "dayjs": "^1.11.7",
+    "qs": "^6.11.2"
+  }
+}
