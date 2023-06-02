@@ -194,8 +194,9 @@ h1 {
   top: 10px;
   z-index: 21;
 }
+
 @media (min-width: 768px) {
-  .vp-doc h1  {
+  .vp-doc h1 {
     font-size: 28px;
     /* top: 4px; */
     top: 10px;
@@ -203,9 +204,10 @@ h1 {
     width: 420px;
   }
 }
-@media (min-width: 738px ) and (max-width: 960px) {
+
+@media (min-width: 738px) and (max-width: 960px) {
   .vp-doc h1 {
-    position: relative!important;
+    position: relative !important;
     z-index: 1;
   }
 }
@@ -242,6 +244,10 @@ h1 {
 
 .vp-doc p {
   font-family: 'Chinese Quote', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.vp-doc blockquote>p {
+  font-size: 14px;
 }
 
 .vp-doc p img {

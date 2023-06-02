@@ -11,6 +11,8 @@ const { page } = useData();
 const { lastUpdated } = toRefs(page.value);
 
 const today = computed(() => {
+  console.log(props.date)
+
   if (props.date) {
     return dayjs(props.date).format("YYYY年M月DD号");
   }

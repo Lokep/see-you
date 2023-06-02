@@ -9,6 +9,8 @@ const props = defineProps({
   link: { type: String },
   date: { type: String },
 });
+
+console.log(props.date)
 </script>
 
 <template>

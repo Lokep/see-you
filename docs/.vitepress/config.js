@@ -28,8 +28,9 @@ export default defineConfig({
       {
         text: "✉️信件",
         items: [
-          { text: "2018年02月18日", link: "/letters/20180218" },
-          { text: "2023年05月29日", link: "/letters/20230529" },
+          { text: "2018年02月18日", link: "/letters/2018-02-18" },
+          { text: "2021年02月08日", link: "/letters/2021-02-08" },
+          { text: "2023年05月29日", link: "/letters/2023-05-29" },
         ],
       },
       {

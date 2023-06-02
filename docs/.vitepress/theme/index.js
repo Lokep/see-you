@@ -20,5 +20,6 @@ export default {
     app.component('Audio', Audio)
     app.component('Receiver', Receiver)
     app.component('Timeline', Timeline)
+    app.component('Topbar', Topbar)
   }
 }
