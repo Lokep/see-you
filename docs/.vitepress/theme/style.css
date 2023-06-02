@@ -243,3 +243,8 @@ h1 {
 .vp-doc p {
   font-family: 'Chinese Quote', 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+
+.vp-doc p img {
+  border-radius: 4px;
+  box-shadow: 0px 5px 20px #ccc;
+}

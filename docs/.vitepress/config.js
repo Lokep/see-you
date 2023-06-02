@@ -26,10 +26,17 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "Letters",
+        text: "✉️信件",
         items: [
           { text: "2018年02月18日", link: "/letters/20180218" },
           { text: "2023年05月29日", link: "/letters/20230529" },
+        ],
+      },
+      {
+        text: "回忆",
+        items: [
+          { text: "时间机器", link: "/memories/time-machine" },
+          { text: "那年十八", link: "/memories/teens" },
         ],
       },
     ],
@@ -43,8 +50,6 @@ export default defineConfig({
   },
 
   buildEnd:(siteConfig) => {
-    console.log(siteConfig)
-
     copyAndMoveDir(path.resolve(__dirname, '../images'), path.resolve(siteConfig.outDir, './images'))
   }
 });
