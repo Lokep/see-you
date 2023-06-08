@@ -7,6 +7,7 @@ const path = require('path');
 export default defineConfig({
   title: "in 129,600 years",
   description: "in 129,600 years",
+  base: 'see-you',
   head: [
     [
       "link",
